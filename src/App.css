@@ -1,33 +1,98 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 100px;
+  background-color: black;
+}
+
+.App-header img {
+  width: 100px ;
+  float: left;
+}
+
+.App-header span {
   color: white;
+  font-family: fantasy;
+  margin-left: 100px;
+  margin-top: 30px;
+  float: left;
+  font-size: 20px;
+  color: cadetblue;
 }
 
-.App-link {
-  color: #61dafb;
+#login {
+  float: right;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#login img {
+  width: 10%;
+  margin-top: 25px;
+}
+
+.controls {
+  width: 750px;
+  padding: 50px 50px 10px 50px;
+  font-family: "Comic Sans MS";
+  border-bottom: 2px dotted lightgray !important;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.controls button {
+  margin-right: 120px;
+  font-family: "Comic Sans MS";
+  padding: 10px;
+}
+
+.controls #trash {
+  margin-right: 95px;
+}
+
+#date {
+  display: inline-block;
+  width: 100px;
+}
+
+#state {
+  display: inline-block;
+  width: 150px;
+}
+
+#user {
+  display: inline-block;
+}
+
+#name {
+  display: inline-block;
+  width: 295px;
+}
+
+.section-header {
+  margin-left: 50px;
+  margin-bottom: 5px;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+  font-family: "Comic Sans MS";
+  font-size: 15px;
+}
+
+#state-icon {
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+main {
+  width: 850px;
+}
+
+.section-panel {
+  margin-bottom: 50px;
+}
+
+#close-modal {
+  margin-bottom: 10px;
+}
+
+#sections {
+  margin: 0px 10px;
 }
